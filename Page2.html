@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Resultados da Pesquisa</title>
+    <style>
+      body {
+        font-family: arial, sans-serif;
+        margin: 5%;
+      }
+
+      header {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .google-logo {
+        max-width: 100px;
+        display: block;
+        margin-left: 20%;
+      }
+
+      #search-bar {
+        width: 85%;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 20px auto;
+        display: block;
+      }
+
+      #results {
+        margin: 20px auto;
+        width: 80%;
+      }
+      .pagination {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .image-resultado {
+        display: flex;
+        align-items: center;
+      }
+
+      .image-resultado img {
+        margin-right: 10px;
+        border-radius: 50px;
+      }
+
+      .nome-resultado {
+        flex: 1;
+        color: #4d5156;
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .nome-resultado-span {
+        color: #202124;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .descricao-resultado {
+        margin: 0%;
+        font-size: 14px;
+        color: #4d5156;
+        text-align: justify;
+      }
+      .link-resultado {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-weight: 400;
+      }
+      .opcoes{
+        margin-left: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+        class="google-logo"
+      />
+      <input type="text" id="search-bar" placeholder="Pesquisar..." />
+    </header>
+
+    <div id="results">
+      <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/Pesquisa4.png" alt="Logo do site Pensador" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Pensador</span> <br />
+            https://www.pensador.com › sejamos_como_o_sol<span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://www.pensador.com/sejamos_como_o_sol/"
+            >Sejamos como o Sol</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+         ... brilhar também. Augusto Branco. 46 compartilhamentos. Sejamos como o Sol, que não espera recompensa, não espera lucros, nem espera elogios. Simplesmente brilha!
+        </p>
+      </div>
+
+       <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/pesquisa5.png" alt="Logo do site Canaltech" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Canaltech</span> <br />
+            Canaltech https://canaltech.com.br › Matérias › Ciência › Espaço <span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://canaltech.com.br/espaco/por-que-o-espaco-e-escuro-se-o-sol-ilumina-todo-o-sistema-solar-192704/"
+            >Por que o espaço é escuro se o Sol ilumina todo o Sistema ...</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+         15 de ago. de 2021 — Mesmo que o Sol iluminasse a região onde naves pousaram por lá na ... Mas por que o espaço parece sempre escuro, se o Sol brilha o tempo todo?
+        </p>
+      </div>
+       <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/pesquisa6.png" alt="Logo do site Loja Uiclap" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Loja Uiclap</span> <br />
+            https://loja.uiclap.com > ... > Memórias Pessoais <span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://loja.uiclap.com/titulo/ua9710/"
+            >O Sol brilha para todos</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+         2 de set. de 2023 — O Sol Brilha para Todos não é um livro de autoajuda, mas uma lição de vida legada, principalmente ao jovem montesclarense, pelo Milton menino, ...
+        </p>
+      </div>
+
+    <div class="pagination">
+      <a href="index.html">1</a> | <a href="#">2</a> | <a href="Page3.html">3</a>
+    </div>
+  </body>
+</html>

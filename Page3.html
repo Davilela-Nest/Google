@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Resultados da Pesquisa</title>
+    <style>
+      body {
+        font-family: arial, sans-serif;
+        margin: 5%;
+      }
+
+      header {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .google-logo {
+        max-width: 100px;
+        display: block;
+        margin-left: 20%;
+      }
+
+      #search-bar {
+        width: 85%;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 20px auto;
+        display: block;
+      }
+
+      #results {
+        margin: 20px auto;
+        width: 80%;
+      }
+      .pagination {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .image-resultado {
+        display: flex;
+        align-items: center;
+      }
+
+      .image-resultado img {
+        margin-right: 10px;
+        border-radius: 50px;
+      }
+
+      .nome-resultado {
+        flex: 1;
+        color: #4d5156;
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .nome-resultado-span {
+        color: #202124;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .descricao-resultado {
+        margin: 0%;
+        font-size: 14px;
+        color: #4d5156;
+        text-align: justify;
+      }
+      .link-resultado {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-weight: 400;
+      }
+      .opcoes{
+        margin-left: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+        class="google-logo"
+      />
+      <input type="text" id="search-bar" placeholder="Pesquisar..." />
+    </header>
+
+    <div id="results">
+      <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/pesquisa7.png" alt="Descrição da imagem" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Amazon.com.br</span> <br />
+            https://www.amazon.com.br › Por-que-sol-brilha-prime...<span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://www.amazon.com.br/Por-que-sol-brilha-primeiro/dp/147496396X"
+            >Por que o sol brilha?: Meu primeiro livro dos porquês</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+         Compre online Por que o sol brilha?: Meu primeiro livro dos porquês, de Campelo, Luciano, Daynes, Katie na Amazon. Frete GRÁTIS em milhares de produtos com ...
+        </p>
+      </div>
+
+       <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/pesquisa8.png" alt="Logo do site Brasil Escola" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Brasil Escola</span> <br />
+            https://brasilescola.uol.com.br › ... › Biologia <span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://brasilescola.uol.com.br/tire-duvidas/pq-o-sol-brilha/315134.html"
+            >Dúvida - Pq o sol brilha - Brasil Escola</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+          Pq o sol brilha - Veja as respostas da comunidade ou ajude a responder.
+
+        </p>
+      </div>
+       <div style="margin-bottom: 4%;">
+        <div class="image-resultado">
+          <img src="images/pesquisa9.png" alt="Logo do site Brainly" />
+          <div class="nome-resultado">
+            <span class="nome-resultado-span">Brainly.com.br</span> <br />
+            https://brainly.com.br › Química › Ensino superior <span class="opcoes">  &vellip;</span>
+          </div>
+        </div>
+        <h3 class="link-resultado">
+          <a
+            style="text-decoration: none"
+            href="https://brainly.com.br/tarefa/55229788"
+            >Porque o sol brilha ? - brainly.com.br</a
+          >
+        </h3>
+        <p class="descricao-resultado">
+          13 de mar. de 2023 — Resposta ... Como todas as estrelas, o Sol brilha porque tem massa demais. Os átomos de hidrogênio do seu núcleo não suportam o peso sobre eles e ...
+        </p>
+      </div>
+
+    <div class="pagination">
+      <a href="index.html">1</a> | <a href="Page2.html">2</a> | <a href="#">3</a> 
+    </div>
+  </body>
+</html>
